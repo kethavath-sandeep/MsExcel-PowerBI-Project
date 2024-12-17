@@ -59,10 +59,10 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
      - **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`
      - 
 
-![Snapshot of Dashboard (Power BI Service)-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/the%20leela%20palace.jpg?raw=true)
+![Snapshot of Dashboard (Power BI Service)-]([https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/the%20leela%20palace.jpg?raw=true](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/dashboard%20.jpg?raw=true))
 
 
-![Report Snapshot (Power BI DESKTOP)-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/the%20leela%20palace.jpg?raw=true)
+![Report Snapshot (Power BI DESKTOP)-]([https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/the%20leela%20palace.jpg?raw=true](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/KPI%20report.jpg?raw=true))
 
 
 ### **Dashboard Link**: [https://app.powerbi.com/groups/473efd0b-c684-401b-adf6-a00221595bc3/reports/db51f7e0-be1d-47df-9e55-2c5a1290e10e?ctid=a6de9407-2d24-407d-81e6-941b053c301a&pbi_source=linkShare]  
