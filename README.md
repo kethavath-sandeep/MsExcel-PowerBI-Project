@@ -59,23 +59,23 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 
 4. Calculated Columns and Measures:  
 
-### **Total Revenue**  
+ **Total Revenue**  
 `SUM([Revenue])`  
 ![Total Revenue](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Total%20Revenue.png?raw=true)  
 
-### **Occupancy Rate**  
+**Occupancy Rate**  
 `SUM([Occupied Rooms])/SUM([Total Rooms])*100`  
 ![Occupancy Rate](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Occupancy%20rate.png?raw=true)  
 
-### **Total Successful Booking**  
+**Total Successful Booking**  
 `Total Bookings = COUNT(fact_bookingss[booking_id])`  
 ![Successful Booking](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Successful%20booking.png?raw=true)  
 
-### **Cancellation Percent**  
+**Cancellation Percent**  
 `DIVIDE([Total cancelled bookings],[Total Bookings])`  
 ![Cancellation Rate](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Cancellation%20rate.png?raw=true)  
 
-### **Average Rating**  
+**Average Rating**  
 `AVERAGE(fact_bookingss[ratings_given])`  
 ![Average Rating](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Average%20rating.png?raw=true)  
 
@@ -97,19 +97,13 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 
 ## Insights  
 
-1. Revenue By Platform:  
-   - The revenue generated across various booking platforms like(MakeYourTrip, LogTrip, etc.).  
-
-
-2. Seasonal Trends:  
-   - Significant revenue spikes were observed during peak seasons.  
-   - Off-season months showed a decline, requiring better marketing strategies.  
-
-3. Operational Efficiency:  
-   - Identified low occupancy rates during high-demand periods, highlighting resource optimization opportunities.  
-
-4. Customer Spend:  
-   - Premium services, like fine dining and luxury rooms, drove higher average customer spending.  
+The following are some important business insights derived from the revenue dashboard:
+Mumbai generates highest revenue and Delhi the least revenue during March to May2024. Company need to focus on increasing the revenue in Delhi.
+The occupancy rate is higher during weekends across all cities, months and booking platforms. Leverage this insight to increase revenue generated during weekends.
+70% of the bookings are checked out while 5% of booking don’t show up across all cities and booking platforms which means 75% of bookings generate revenue for The Leela Palace hotels. 
+Identify and analyze the reasons for cancellations and try to reduce them.
+Avg rating varies between 3.4 to 3.8 across cities. Compare it with the industry benchmark across cities and evaluate the performance.
+Occupancy rate is highest at Delhi with 60+ % for all months though generates least revenue compared to other cities. Identify the reason for higher occupancy and use that to drive the revenue growth.
 
 
 
