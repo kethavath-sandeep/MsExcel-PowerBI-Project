@@ -4,7 +4,7 @@
 
 ### **Dashboard Link**: [Not Applicable]  
 
----
+
 
 ## Problem Statement  
 This dashboard was designed to help **The Leela Palace** hotel chain monitor and analyze their revenue streams and operational performance. The goal was to identify revenue sources, track trends, and provide actionable insights for data-driven decision-making. The dashboard highlights:  
@@ -14,7 +14,7 @@ This dashboard was designed to help **The Leela Palace** hotel chain monitor and
 
 By using this dashboard, **The Leela Palace** can enhance resource allocation, optimize pricing strategies, and improve overall operational efficiency.
 
----
+
 
 ## Steps Followed  
 
@@ -34,7 +34,7 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 - **Step 5**: The dashboard was tested to ensure accuracy and usability.  
 - **Step 6**: The final dashboard was presented to stakeholders for review and feedback.  
 
----
+
 
 ## KPIs and Visuals Used  
 
@@ -58,7 +58,7 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
      - **Total Revenue**: `SUM([Revenue])`  
      - **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`  
 
----
+
 
 ## Insights  
 
@@ -76,14 +76,14 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 4. Customer Spend:  
    - Premium services, like fine dining and luxury rooms, drove higher average customer spending.  
 
----
+
 
 ## Challenges Faced  
 1. **Data Inconsistencies**: Handled missing values, duplicates, and formatting issues.  
 2. **Learning Curve**: Gained expertise in **DAX** and advanced Power BI functionalities.  
 3. **Stakeholder Feedback**: Iterative reviews were required to meet stakeholder expectations.  
 
----
+
 
 ## Tools and Techniques Used  
 - **Power BI**: Data visualization and dashboard development.  
@@ -92,7 +92,7 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 - **Microsoft Excel**: Initial data cleaning and exploration.  
 - **PowerPoint**: Presentation of the final dashboard to stakeholders.  
 
----
+
 
 ## Conclusion  
 The KPI dashboard provided **The Leela Palace** with valuable insights into their business performance. It enabled the management team to:  
