@@ -2,7 +2,7 @@
 
 # Revenue KPI Dashboard for "The Leela Palace" 
 
-### **Dashboard Link**: [Not Applicable]  
+### **Dashboard Link**: [https://app.powerbi.com/groups/473efd0b-c684-401b-adf6-a00221595bc3/reports/db51f7e0-be1d-47df-9e55-2c5a1290e10e?ctid=a6de9407-2d24-407d-81e6-941b053c301a&pbi_source=linkShare]  
 
 
 
