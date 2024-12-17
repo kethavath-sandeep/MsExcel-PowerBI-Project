@@ -57,23 +57,30 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
    - **Pie Charts**: Contribution of different revenue sources.
    - **Column Chart**: shows the percentage of rooms occupied by weekend and weekday.  
 
-4. Calculated Columns and Measures(Used **DAX** for KPIs like):  
+4. Calculated Columns and Measures:  
     
-    **Total Revenue**: `SUM([Revenue])`
-![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Total%20Revenue.png?raw=true)
- 
-    **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`
-![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Occupancy%20rate.png?raw=true)
+ ## (Used **DAX** for KPIs like) 
 
-    **Total Successful Booking**: `Total Bookings = COUNT(fact_bookingss[booking_id])`
-![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Successful%20booking.png?raw=true)
+### **Total Revenue**  
+`SUM([Revenue])`  
+![Total Revenue](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Total%20Revenue.png?raw=true)  
 
+### **Occupancy Rate**  
+`SUM([Occupied Rooms])/SUM([Total Rooms])*100`  
+![Occupancy Rate](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Occupancy%20rate.png?raw=true)  
 
-    **Cancellation Percent**: `DIVIDE([Total cancelled bookings],[Total Bookings])`
-![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Cancellation%20rate.png?raw=true)
+### **Total Successful Booking**  
+`Total Bookings = COUNT(fact_bookingss[booking_id])`  
+![Successful Booking](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Successful%20booking.png?raw=true)  
 
-    **Average Rating**: `AVERAGE(fact_bookingss[ratings_given])`
-![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Average%20rating.png?raw=true)
+### **Cancellation Percent**  
+`DIVIDE([Total cancelled bookings],[Total Bookings])`  
+![Cancellation Rate](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Cancellation%20rate.png?raw=true)  
+
+### **Average Rating**  
+`AVERAGE(fact_bookingss[ratings_given])`  
+![Average Rating](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Average%20rating.png?raw=true)  
+
 
 
 # Snapshot of Dashboard (Power BI Service)
