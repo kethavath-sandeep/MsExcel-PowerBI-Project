@@ -57,8 +57,8 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
    - **Pie Charts**: Contribution of different revenue sources.
    - **Column Chart**: shows the percentage of rooms occupied by weekend and weekday.  
 
-4. Calculated Columns and Measures:  
-   - Used **DAX** for KPIs like:  
+4. Calculated Columns and Measures(Used **DAX** for KPIs like):  
+    
     **Total Revenue**: `SUM([Revenue])`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Total%20Revenue.png?raw=true)
  
