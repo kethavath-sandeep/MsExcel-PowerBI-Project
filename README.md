@@ -59,20 +59,20 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 
 4. Calculated Columns and Measures:  
    - Used **DAX** for KPIs like:  
-     - **Total Revenue**: `SUM([Revenue])`
+    **Total Revenue**: `SUM([Revenue])`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Total%20Revenue.png?raw=true)
  
-     - **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`
+    **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Occupancy%20rate.png?raw=true)
 
-     - **Total Successful Booking**: `Total Bookings = COUNT(fact_bookingss[booking_id])`
+    **Total Successful Booking**: `Total Bookings = COUNT(fact_bookingss[booking_id])`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Successful%20booking.png?raw=true)
 
 
-     - **Cancellation Percent**: `DIVIDE([Total cancelled bookings],[Total Bookings])`
+    **Cancellation Percent**: `DIVIDE([Total cancelled bookings],[Total Bookings])`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Cancellation%20rate.png?raw=true)
 
-     - **Average Rating**: `AVERAGE(fact_bookingss[ratings_given])`
+    **Average Rating**: `AVERAGE(fact_bookingss[ratings_given])`
 ![image-](https://github.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/blob/main/Average%20rating.png?raw=true)
 
 
