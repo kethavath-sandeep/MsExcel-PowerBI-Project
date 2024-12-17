@@ -41,7 +41,10 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 1. Key Performance Indicators:  
    - Total Revenue (overall and departmental).  
    - Occupancy Rate.  
-   - Average Customer Spend.  
+   - Total Successful Booking.
+   - Average Rating.
+   - Total Cancelled Booking.
+   - Cancelation Rate.  
 
 2. Filters and Interactive Elements:  
    - Time Periods: Weekly, monthly, and quarterly views.  
@@ -51,13 +54,29 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 3. Visualizations:  
    - **Bar Charts**: Revenue by departments and locations.  
    - **Line Graphs**: Revenue trends and seasonal variations.  
-   - **Pie Charts**: Contribution of different revenue sources.  
+   - **Pie Charts**: Contribution of different revenue sources.
+   - **Column Chart**: shows the percentage of rooms occupied by weekend and weekday.  
 
 4. Calculated Columns and Measures:  
    - Used **DAX** for KPIs like:  
-     - **Total Revenue**: `SUM([Revenue])`  
+     - **Total Revenue**: `SUM([Revenue])`
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+ 
      - **Occupancy Rate**: `SUM([Occupied Rooms])/SUM([Total Rooms])*100`
-     - 
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+
+     - **Total Successful Booking**: `Total Bookings = COUNT(fact_bookingss[booking_id])`
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+
+     - **Total Cancelled Booking**: `CALCULATE([Total Bookings],fact_bookingss[booking_status]="Cancelled")`
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+
+     - **Cancellation Percent**: `DIVIDE([Total cancelled bookings],[Total Bookings])`
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+
+     - **Average Rating**: `AVERAGE(fact_bookingss[ratings_given])`
+![image-](https://raw.githubusercontent.com/kethavath-sandeep/Revenue-KPI-Dashboard-Leela-Palace/refs/heads/main/KPI%20report.jpg)
+
 
 # Snapshot of Dashboard (Power BI Service)
 
@@ -75,9 +94,9 @@ By using this dashboard, **The Leela Palace** can enhance resource allocation, o
 
 ## Insights  
 
-1. Revenue Drivers:  
-   - Room bookings and dining contributed the highest revenue.  
-   - Event services performed poorly during off-peak months.  
+1. Revenue By Platform:  
+   - The revenue generated across various booking platforms like(MakeYourTrip, LogTrip, etc.).  
+
 
 2. Seasonal Trends:  
    - Significant revenue spikes were observed during peak seasons.  
